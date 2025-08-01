@@ -1,17 +1,30 @@
-# A-project-called-Task-Manager-
-*Project Description*
-This Python project demonstrates reading data from JSON files, implementing basic authentication, and handling API requests. It serves as a template to build more complex Python applications involving data processing and network communication.
-*Installation*
-Clone the repository and install the required packages:
-git clone https://github.com/yourusername/sample-python-project.git
-cd sample-python-project
+Python Task Manager CLI
+A simple yet powerful command-line task manager to create, track, and manage daily tasks. Built with Python, this project demonstrates JSON file handling, basic authentication, and API request management—perfect for learning or extending into more complex applications.
+
+✨ Features
+Task Management: Create, update, and delete tasks effortlessly.
+
+JSON Storage: Tasks are saved in tasks.json for easy data handling.
+
+Modular Code: Clean and structured for easy customization.
+
+Basic Authentication: Secure access to sensitive operations.
+
+API Integration: Example of sending/receiving API requests (extendable).
+
+🚀Installation
+1.Clone the repository:
+git clone https://github.com/yourusername/python-task-manager.git
+cd python-task-manager
+2.Install dependencies:
 pip install -r requirements.txt
-*Usage*
-Run the main script to execute the project functionality:
+
+🛠 Usage
+Run the main script to start managing tasks:
 python main.py
-If the project accepts parameters or options, add instructions here.
-*Features*
-1.Read and parse JSON files.
-2.Basic authentication handling.
-3.Send and receive API requests.
-4.Example of modular Python code structure.
+Example Commands:
+Add a task: add "Complete project README"
+
+List tasks: list
+
+Mark as complete: complete 1 (where 1 is the task ID)
